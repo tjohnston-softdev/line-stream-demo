@@ -1,0 +1,14 @@
+{
+  "name": "line-stream-demo",
+  "version": "1.0.0",
+  "description": "Demo project for the 'line-by-line' package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyrone Johnston",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "line-by-line": "^0.1.6"
+  }
+}
