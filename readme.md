@@ -52,7 +52,7 @@ I have provided an example text file which simulates a chat log between two peop
 * [Reading Large Structured Text Files in Node.js](https://medium.com/swlh/reading-large-structured-text-files-in-node-js-7c4c4b84332b)   
 \-Momtchil Momtchev
 
-* [Node.js | fs.createReadStream\(\) Method](https://www.geeksforgeeks.org/node-js-fs-createreadstream-method/)
+* [Node.js | fs.createReadStream\(\) Method](https://www.geeksforgeeks.org/node-js-fs-createreadstream-method/)   
 \-Geeks For Geeks
 
 \
