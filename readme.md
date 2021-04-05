@@ -1,9 +1,5 @@
 # Line Stream Demo
-By Tyrone Johnston
 
----
-
-### Introduction
 This is a demo project for the [line-by-line](https://www.npmjs.com/package/line-by-line) Node JS library. It opens a given text file and displays the contents (as the name would suggest) line by line.
 
 The [fs.readFile](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback) function in the default File System library is a very easy, convenient way to open and read files. However, the catch is that it reads the file all at once and stores the contents in memory. This is fine for smaller files but this becomes an issue for files with a large or dynamic size as attempting to store the contents of large files in memory can cause [fatal errors](https://blog.asayer.io/javascript-heap-out-of-memory-error). Therefore, the file should be read in smaller chunks rather than as a whole. There is no right or wrong way to go about this but rather it depends on the project and your needs. If the target needs to be read per-line, I wholeheartedly recommend this library.
@@ -12,14 +8,14 @@ I have provided an example text file which simulates a chat log between two peop
 
 ---
 
-### Usage
+## Usage
 * Open a terminal in the project folder.
 * Run `npm install` to download the 'line-by-line' package.
 * Run `node index` to execute the demo.
 
 ---
 
-### Message Format
+## Message Format
 
 ```
 [yyyy-mm-dd HH:MM:SS] User : Hello World
@@ -28,7 +24,7 @@ I have provided an example text file which simulates a chat log between two peop
 
 ---
 
-### Credits
+## Credits
 * [@tjohnston-softdev](https://github.com/tjohnston-softdev) - Demo project.
 * [@Osterjour](https://github.com/Osterjour) - Library developer.
 * Chat messages generated with [Lorem Ipsum IO](https://loremipsum.io)
