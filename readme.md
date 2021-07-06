@@ -29,7 +29,7 @@ I have provided an example text file which simulates a chat log between two peop
 * [@tjohnston-softdev](https://github.com/tjohnston-softdev) - Demo project.
 * [@Osterjour](https://github.com/Osterjour) - Library developer.
 * Chat messages generated with [Lorem Ipsum IO](https://loremipsum.io)
-* Timestamps generation assisted by [RANDOM.ORG](https://www.random.org/)
+* Timestamp generation assisted by [RANDOM.ORG](https://www.random.org/)
 
 ---
 
