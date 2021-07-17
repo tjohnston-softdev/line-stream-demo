@@ -1,11 +1,10 @@
-
 # Line Stream Demo
 
 This is a demo project for the [line-by-line](https://www.npmjs.com/package/line-by-line) Node JS library. It opens a given text file and displays the contents line by line, as the name would suggest.
 
 The [fs.readFile](https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback) function in the default File System library is a very easy, convenient way to open and read files. However, the catch is that it reads the file all at once and stores the contents in memory. This is fine for smaller files but it becomes an issue for files with a large or unknown size as attempting to store the contents of large files in memory can cause [fatal errors](https://blog.asayer.io/javascript-heap-out-of-memory-error). Therefore, the file should be read in smaller chunks rather than as a whole. There is no right or wrong way to go about this but it depends on the project and your needs. If the target needs to be read per-line, I wholeheartedly recommend this library.
 
-I have provided an example text file which simulates a chat log between two people. Each line corresponds to a message. The size is only ~8kb which would be safe to read all at once but because only one line is stored in memory at a time, the actual size does not matter.
+I have provided an example text file which simulates a chat log between two people. Each line corresponds to a message. The file's size is only ~8kb so it would be safe to read all at once. However, because only one line is stored in memory at a time, the actual size does not matter.
 
 ---
 
