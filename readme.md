@@ -9,9 +9,9 @@ I have provided an example text file which simulates a chat log between two peop
 ---
 
 ## Usage
-* Open a terminal in the project folder.
-* Run `npm install` to download the 'line-by-line' package.
-* Run `node index` to execute the demo.
+1. Open a terminal in the project folder.
+2. Run `npm install` to download the 'line-by-line' package.
+3. Run `node index` to execute the demo.
 
 ---
 
